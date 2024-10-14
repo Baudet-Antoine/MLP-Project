@@ -1,2 +1,1 @@
-# MLP-Project
-Machine Learning in Practise Project
+This Dataset contains racecraft datas. The goal will be to try to estimate the overall best lap time with certains parameters that are affected by engineers work. This could save time so that pilots wont have to test every different setups.
