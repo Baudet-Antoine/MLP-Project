@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "mlp-project"
+version = "0.1.0"
+description = ""
+authors = ["Baudet-Antoine <168273111+Baudet-Antoine@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "maincode", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
