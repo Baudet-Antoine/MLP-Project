@@ -2,8 +2,6 @@ from src.maincode.custom_functions import is_even
 
 import streamlit as st
 
-from simplepypkg.custom_functions import is_even, is_odd
-
 
 def app():
     st.header('Test if your number is Even 💚')
