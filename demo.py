@@ -1,22 +1,10 @@
-from src.maincode.custom_functions import is_even
-
 import streamlit as st
-from pathlib import Path
-import numpy as np
-import pandas as pd
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.tree import DecisionTreeClassifier, plot_tree
-from sklearn import metrics
-from sklearn.preprocessing import LabelEncoder
-from sklearn.calibration import CalibratedClassifierCV
-from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.metrics import mean_absolute_error, mean_squared_error
-import matplotlib.pyplot as plt
-from matplotlib import pyplot as plt
-from eclyon.transforms import process_df, split_vals
-from eclyon.plot import draw_tree
 import joblib
+import pandas as pd
+
+from sklearn.preprocessing import LabelEncoder
+from pathlib import Path
+
 
 
 def app():
